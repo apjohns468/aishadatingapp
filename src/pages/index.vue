@@ -27,6 +27,8 @@ const { t } = useI18n()
       <em class="text-sm opacity-75">{{ t('intro.desc') }}</em>
     </p>
 
+    <DatingQuestionnair />
+    
     <div class="py-4" />
 
     <input

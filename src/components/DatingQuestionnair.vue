@@ -18,12 +18,13 @@ const getANewQuestion = () => {
     
   <div> 
     <button 
-      class="icon-btn mx-2 !outline-none" 
+      class="QuestionButton"
       title="Randomize a new question" 
       @click="getANewQuestion"
     >
           New Question
     </button>
   </div>
+
 
 </template>

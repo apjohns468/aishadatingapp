@@ -26,8 +26,8 @@ const questions = [
 const getANewQuestion = () => {
   const randomNumber = Math.floor(Math.random() * questions.length)
   
-  questionIndex = randomNumber
-  //'return questions[randomNumber]
+  //questionIndex = randomNumber
+  alert( questions[randomNumber] )
 }
 
 </script>

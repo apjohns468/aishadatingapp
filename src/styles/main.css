@@ -41,3 +41,31 @@ html.dark {
     hover:opacity-100 hover:text-teal-600;
   font-size: 0.9em;
 }
+
+.QuestionButton {
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  display: block;
+  margin: 1em auto;
+  width: 6em;
+  height: 6em;
+  max-width: 100%;
+  border: 10px gold solid;
+  border-radius: 50%;
+  font-size: 2em;
+  font-weight: bold;
+  background: black;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+  box-shadow: inset -2px -2px 12px 5px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: 0.3s ease all;
+}
+.QuestionButton:hover, .QuestionButton:focus {
+  background-color: #e60000;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  outline: none;
+}
+.QuestionButton:before, .QuestionButton:after {
+  box-sizing: inherit;
+}

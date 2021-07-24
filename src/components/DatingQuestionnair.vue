@@ -36,7 +36,7 @@ const getANewQuestion = () => {
 
     
   <div> 
-    {{ questions[randomNumber] }}
+    {{ questions[questionIndex] }}
     <button 
       class="QuestionButton"
       title="Randomize a new question" 
